@@ -1,0 +1,17 @@
+{
+  "name": "cash-cow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.1.103"
+  },
+  "devDependencies": {
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0"
+  }
+}

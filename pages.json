@@ -1,0 +1,47 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+			{
+				"path": "pages/index/index",
+				"style": {
+					"navigationBarTitleText": "现金牛",
+					"app-plus": {
+						"titleNView": false
+					}
+				}
+			},
+			{
+					"path" : "pages/user/index",
+					"style" : {
+						"app-plus": {
+							"titleNView": false
+						}
+					}
+			}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "现金牛",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#ffa39e",
+		"selectedColor": "#fff",
+		"borderStyle": "black",
+		"backgroundColor": "#f5222d",
+		"list": [
+				{
+					"pagePath":"pages/index/index",
+					"iconPath":"static/home-24px.svg",
+					"selectedIconPath":"static/home-24px.active.svg",
+					"text":"首页"
+				},
+				{
+					"pagePath":"pages/user/index",
+					"iconPath":"static/person-24px.svg",
+					"selectedIconPath":"static/person-24px.active.svg",
+					"text":"用户"
+				}
+		]
+	}
+}
