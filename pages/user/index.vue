@@ -1,13 +1,17 @@
 <template>
 	<view class="content">
-		<view class="text-area">
-			<text class="title">{{title}}</text>
-		</view>
+		<uni-nav-bar :title="title"
+		:status-bar="true"
+		background-color="#f5222d"
+		color="white"/>
 	</view>
 </template>
-
 <script>
+	import {uniNavBar} from '@dcloudio/uni-ui'
 	export default {
+		components: {
+			uniNavBar
+		},
 		data() {
 			return {
 				title: "user"

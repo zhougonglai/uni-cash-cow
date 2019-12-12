@@ -19,7 +19,7 @@
 			}
     ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
+		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "现金牛",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
@@ -32,14 +32,14 @@
 		"list": [
 				{
 					"pagePath":"pages/index/index",
-					"iconPath":"static/home-24px.svg",
-					"selectedIconPath":"static/home-24px.active.svg",
+					"iconPath":"static/home.png",
+					"selectedIconPath":"static/home-active.png",
 					"text":"首页"
 				},
 				{
 					"pagePath":"pages/user/index",
-					"iconPath":"static/person-24px.svg",
-					"selectedIconPath":"static/person-24px.active.svg",
+					"iconPath":"static/person.png",
+					"selectedIconPath":"static/person-active.png",
 					"text":"用户"
 				}
 		]

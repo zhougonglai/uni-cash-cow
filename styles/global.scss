@@ -1,0 +1,13 @@
+@import './reset';
+@import './color';
+@import './components';
+@import './display';
+@import './font';
+@import './mixin';
+@import './shadow';
+
+.app-bar{		
+	.uni-navbar--border{
+		border-bottom-width: 0 !important;
+	}
+}
